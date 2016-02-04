@@ -10,12 +10,12 @@
     <keywords>cordova,imei</keywords>
 
     <js-module src="www/imei.js" name="IMEIPlugin">
-        <clobbers target="window.plugins.imei" />
+        <clobbers target="navigator.imei" />
     </js-module>
     <!-- android -->
     <platform name="android">
 
-        <config-file target="res/xml/config.xml" parent="/*">
+        <config-file target="config.xml" parent="/*">
             <feature name="IMEI">
               <param name="android-package" value="com.plugin.IMEI.IMEIPlugin"/>
             </feature>
