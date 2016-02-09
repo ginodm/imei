@@ -1,7 +1,9 @@
 var exec = require('cordova/exec');
 
-var imeiExport.getImei = function (successCallback, errorCallback){
-		exec(successCallback, errorCallback, "IMEI", "get", [options]);
+var imeiExport = {};
+
+imeiExport.getImei = function (successCallback, errorCallback){
+		exec(successCallback, errorCallback, "IMEI", "get", []);
     }
 	
 module.exports = imeiExport;
