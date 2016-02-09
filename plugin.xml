@@ -24,13 +24,10 @@
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.READ_PHONE_STATE" />
         </config-file>
-
-<<<<<<< HEAD
+		
 		<!--
         <source-file src="src/android/IMEIPlugin.java" target-dir="src/com/plugin/IMEI" />
 		-->
-=======
->>>>>>> b2c25ada6c4ad440bd0a00c596d925ecb35790b2
     </platform>
 
 
