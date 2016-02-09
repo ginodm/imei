@@ -10,7 +10,7 @@
     <keywords>cordova,imei</keywords>
 
     <js-module src="www/imei.js" name="IMEIPlugin">
-        <clobbers target="navigator.imei" />
+        <clobbers target="navigator.IMEI" />
     </js-module>
     <!-- android -->
     <platform name="android">
