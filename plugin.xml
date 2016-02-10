@@ -4,7 +4,7 @@
            id="com.plugin.imei"
       version="0.0.1">
 
-    <name>IMEI</name>
+    <name>Imei</name>
     <description>IMEI plugin for Android</description>
     <license>MIT</license>
     <keywords>cordova,imei</keywords>
@@ -16,7 +16,7 @@
     <platform name="android">
 
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="imei">
+            <feature name="Imei">
               <param name="android-package" value="com.plugin.IMEI.IMEIPlugin"/>
             </feature>
         </config-file>
@@ -24,7 +24,7 @@
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.READ_PHONE_STATE" />
         </config-file>
-
+        <source-file src="src/android/IMEIPlugin.java" target-dir="src/it/plugin/cordova/IMEIPlugin/" />
     </platform>
 
 
