@@ -9,7 +9,7 @@
     <license>MIT</license>
     <keywords>cordova,imei</keywords>
 
-    <js-module src="www/imei.js" name="IMEIPlugin">
+    <js-module src="www/imei.js" name="imei>
         <clobbers target="navigator.imei" />
     </js-module>
     <!-- android -->
